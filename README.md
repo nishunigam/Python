@@ -1,4 +1,5 @@
 The **global** statement can be used to indicate that particular variables live in the global scope and should be rebound there.
+
 the **nonlocal** statement indicates that particular variables live in an enclosing scope and should be rebound there.
 
 ```
