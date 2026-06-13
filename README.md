@@ -1,3 +1,6 @@
+##Python Scopes and Namespaces
+A **namespace** is a mapping from names to objects. Most namespaces are currently implemented as Python dictionaries, but that’s normally not noticeable in any way (except for performance), and it may change in the future.
+
 if <ins>no global or nonlocal</ins> statement is in effect – assignments to names always go into the innermost scope. Assignments do not copy data — they just bind names to objects.
 
 The **global** statement can be used to indicate that particular variables live in the global scope and should be rebound there.
