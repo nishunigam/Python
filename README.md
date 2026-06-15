@@ -2,7 +2,7 @@ Instance methods like .__init__() and .__str__() are called dunder methods. This
 
 Other names for these methods are special methods and magic methods.
 
-You can use the isinstance() function to check if an object is an instance of a specific class.
+You can use the **isinstance()** function to check if an object is an instance of a specific class.
 
 The function takes two arguments: the object and the class. It returns True if the object is an instance of the class, and False otherwise:
 ```
@@ -11,6 +11,12 @@ isinstance("hello", str)
 
 True
 ```
+
+
+The **.speak()** method in the JackRussellTerrier class is an example of both overriding and extending a method from a parent class. It overrides the .speak() method of the Dog parent class by providing a new implementation. However, this new implementation actually calls the original .speak() method of the Dog class using super().speak(sound).
+
+This is an example of extending a method because it provides additional functionality (a default sound) while still maintaining the original behavior of the .speak() method from the Dog class.
+
 
 ## Python Scopes and Namespaces
 
